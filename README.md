@@ -1,14 +1,6 @@
 # stemwayLearningStyleTest
 
-// learningStrategyEvaluationTestContent.js
 
-
-
-
-Frontend: HTML, CSS, JavaScript
-\n
-Backend technologies made with AWS: Lambda functions (Node.js runtime), 
-API Gateway, DynamoDB, Simple Email Service (SES).
 
 
 After completing the contact form project for Stemway,
