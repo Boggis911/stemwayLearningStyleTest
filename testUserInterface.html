@@ -1,0 +1,69 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+
+<div class = "test-container">
+
+    <div class="container" id="introContainer" style="display: block">
+        <p>Welcome to the quick 3 min learning strategies test!</p>
+        <p>We will ask you a few general questions about your studying habits. The test results will show your learning effectiveness</p>
+        <p id="intoContainerErrorParagraph"></p>
+        <button id="beginButton">Begin</button>
+    </div>
+    
+    
+
+    
+    <div class="container" id="questionContainer" style="display: none">
+        <p id="questionNumber"></p>
+        <p id="question"></p>
+        <div id="answerOptions"></div> <!-- New Div for answer options -->
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+        <button id="submitButton" style="display: none;">Submit Answers</button>
+    </div>
+    
+    
+ 
+    
+    
+    <div class="container" id="resultsContainer" style="display: none;">
+        <div class="loader" id="loader" style="display: none;"></div>
+        <p id="results"></p>
+        <p id="resultsComment" style="display: none;"></p>
+        <p id="callToActionText" style="display: none;"></p>
+        <button id="resultsExitButton">Exit</button>
+        <button id="callToActionButton">Claim my free lesson and full results</button>
+    </div>
+    
+    
+    
+
+
+    
+    <div class="container" id="emailContainer" style="display: none;">
+        <p>Enter your details to receive full results and instruction on how to use your free lesson:</p>
+        <label for="userName">Name:</label><br>
+        <input type="text" id="userName" placeholder="Enter your name"><br><br>
+        <label for="userEmail">Email:</label><br>
+        <input type="email" id="userEmail" placeholder="Enter your email address"><br><br>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <input type="checkbox" id="privacyConsent" style="flex: 0;">
+            <label for="privacyConsent" style="flex: 1; text-align: center;">I agree to the <a href="../privacy-policy/" target="_blank">Privacy Policy</a></label>
+        </div>
+        
+        <button id="submitEmail">Submit</button>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class="container" id="exitContainer" style="display: none;">
+        <p id="exitContainerText"></p>
+        <button id="exitButton">Finish</button>
+    </div>
+
+</div>
