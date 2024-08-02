@@ -27,9 +27,9 @@
     width: 100%;
     height: 100vh;
     background-image: url('../../images/dark_table_right_items.jpg');
-    background-size: cover;       /* Scale the image to cover the element */
-    background-position: center;  /* Center the image in the element */
-    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
 }
 
 
@@ -48,17 +48,17 @@
     
        
     .progress-bar {
-        width: 80%; /* Change this value to make the progress bar as large as you need */
+        width: 80%; 
         background-color: #f3f3f3; /* Light grey */
-        border-radius: 25px; /* Makes the progress bar corners rounded */
+        border-radius: 25px; 
         margin: 0 auto; /* Center the progress bar */
     }
     
     #progressBar {
-        height: 36px; /* Change this value to adjust the height of the progress bar */
+        height: 36px; 
         width: 0%;
         background-color: #f44336; /* Red */
-        border-radius: 25px; /* Makes the corners rounded */
+        border-radius: 25px; 
         transition: width 2.5s ease-in-out;
     }
     
@@ -90,7 +90,7 @@
 }
 
     button:active {
-    transform: scale(0.95);     /* Slightly reduce the size of the button when pressed */
+    transform: scale(0.95);   
 }
     
     
