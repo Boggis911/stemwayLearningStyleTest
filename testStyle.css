@@ -1,0 +1,97 @@
+
+     
+#beginButton, #resultsExitButton, #callToActionButton {
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+
+    
+ 
+ 
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    #privacyConsent {
+        margin-top: 15px;  
+        margin-right: 10px;
+    }
+    
+
+.test-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/dark_table_right_items.jpg');
+    background-size: cover;       /* Scale the image to cover the element */
+    background-position: center;  /* Center the image in the element */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+}
+
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        margin-right: 20%;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        width: 50%;
+        max-width: 700px;
+        transition: opacity 0.5s;
+    }
+    
+    
+    
+       
+    .progress-bar {
+        width: 80%; /* Change this value to make the progress bar as large as you need */
+        background-color: #f3f3f3; /* Light grey */
+        border-radius: 25px; /* Makes the progress bar corners rounded */
+        margin: 0 auto; /* Center the progress bar */
+    }
+    
+    #progressBar {
+        height: 36px; /* Change this value to adjust the height of the progress bar */
+        width: 0%;
+        background-color: #f44336; /* Red */
+        border-radius: 25px; /* Makes the corners rounded */
+        transition: width 2.5s ease-in-out;
+    }
+    
+    
+    
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #000; /* Black */
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+        margin: 20px auto;
+    }
+   
+   
+       button {
+        background-color: #000; /* Black */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    button:hover {
+    background-color: #333333;  /* Darker black on hover */
+}
+
+    button:active {
+    transform: scale(0.95);     /* Slightly reduce the size of the button when pressed */
+}
+    
+    
+    
